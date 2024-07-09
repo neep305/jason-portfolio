@@ -1,0 +1,23 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff
+  /* color: #ffffff;  진한 회색 */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  color: #1a202c;  /* 거의 검정색 */
+}
+
+a {
+  color: #3182ce;  /* 파란색 */
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2c5282;  /* 진한 파란색 */
+}
